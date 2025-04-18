@@ -43,13 +43,13 @@ public class RentalCarCalculator {
         System.out.printf("\nBasic Car Rental: $%.2f", carTotal);
 
         if (Objects.equals(tollTagChoice, "yes")) {
-            optionsTotal =+ tollTagCost * numDays;
+            optionsTotal += tollTagCost * numDays;
         }
         if (Objects.equals(gpsChoice, "yes")) {
-            optionsTotal =+ gpsCost * numDays;
+            optionsTotal += gpsCost * numDays;
         }
         if (Objects.equals(roadsideChoice, "yes")) {
-            optionsTotal =+ roadsideCost * numDays;
+            optionsTotal += roadsideCost * numDays;
         }
 
         System.out.printf("\nOptions Cost: $%.2f", optionsTotal);

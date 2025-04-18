@@ -7,11 +7,9 @@ public class methods {
 
         String watchLater = favoriteShow("Severance");
         System.out.println(watchLater);
-        int sum = addNums(7,9);
+        int sum = addNums(7, 9);
         System.out.println(sum);
     }
-
-
 
     public static void brushTeeth() {
         System.out.println("1. Wash the toothbrush.");
@@ -26,5 +24,4 @@ public class methods {
     public static int addNums(int x, int y) {
         return x + y;
     }
-
 }
